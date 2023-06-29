@@ -1,0 +1,36 @@
+#login-form-div {
+    width: 28%;
+    margin: 4% auto;
+    border-radius: 2%;
+    line-height: 30px;
+}
+input {
+    width: 85%;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 6%;
+    padding-left: 4%;
+}
+button {
+    width: 90%;
+    border-radius: 10px;
+    height: 10px;
+    padding: 5%;
+    margin-top: 10%;
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(71, 71, 169);
+    color: aliceblue;
+}
+form {
+    margin-left: 20px;
+    margin-bottom: 30%;
+}
+form > h1{
+    text-align: center;
+    padding-right: 30px;
+}

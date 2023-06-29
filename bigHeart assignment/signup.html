@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link rel="stylesheet" href="./style/signup.css">
+  </head>
+
+  <body style="background-color: rgb(77, 77, 211)">
+
+    <a href="./index.html" style="text-decoration: none;"><h2 style="color: black;">Home</h2></a>
+   
+    <div id="signup-form-div" style="background-color: aliceblue; border-radius: 2%; padding: 2%;">
+      <form >
+        <!--Write form input elements here-->
+
+        <h1 style="padding: 1%; padding-right: 12%; ">Signup</h1>
+        
+        <input id="name" type="text" placeholder="Enter your full name" required/><br />
+
+        <input id="email" type="email" placeholder="Enter email" required /><br />
+        
+        <input type="number" id="contact" placeholder="contact no." required><br>
+        
+        <input type="text" id="address" placeholder="Enter Your Address" required><br>
+        
+        <input id="pass" type="password" placeholder="Enter password" required /><br />
+
+        <input id="Confirmpass" type="password" placeholder="Confirm password" required /><br />
+        
+        <button onclick="signup()" style="cursor: pointer; background-color: rgb(72, 72, 199); color: aliceblue;">Signup</button>
+        <br />
+        <p style="font-weight: bolder; padding-left: 13%;">Already have an account? <a href="login.html" style="text-decoration: none;" >Login</a></p>
+      </form>
+    </div>
+
+
+  </body>
+</html>
+<script src="./script/signup.js"></script>
