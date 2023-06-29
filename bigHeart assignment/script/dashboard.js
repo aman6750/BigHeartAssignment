@@ -130,14 +130,13 @@ if(admin.length==0){
         newValueInput.value = '';
       }
 
-      var anythingUpdated = false;
 
      confirmButton.addEventListener('click', function() {
         let newValue = newValueInput.value;
         if (newValue.length==0) {
           alert("input field is required");
         }else{
-            anythingUpdated = true;
+            
             updateValue(newValue);
             admin[admin.length - 1].name = updatedUsername;
             admin[admin.length - 1].number =updatedNumber;
@@ -153,18 +152,4 @@ if(admin.length==0){
      cancelButton.addEventListener('click', hidePopup);
 
 
-
-
-     if(anythingUpdated){
-
-        console.log(
-            "yess"
-        );
-
-           
-
-
-            anythingUpdated = false;
-
-     }
 
